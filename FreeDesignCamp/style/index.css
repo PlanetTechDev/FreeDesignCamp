@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: linear-gradient(#3D5AA9, #272A7D);
+    height: 2000px;
+    font-family: League Spartan, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Nav */
+.nav-bar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li {
+    list-style-type: none;
+    word-spacing: 20px;
+}
+
+/* Logo */
+.fdclogo-main {
+    width: 35vh;
+}
+
+.Signup-Btn {
+    background-color: rgba(255, 222, 173, 0);
+    border: 2px solid #3AC8FF;
+    color: white;
+    padding: 11px 35px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.Login-Btn {
+    background-color: #15bdff;
+    border: none;
+    color: white;
+    padding: 11px 35px;
+    border: 2px solid #15bdff;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+/* MainText-Wrap */
+
+.mainbody {
+    display: flex;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.MainText-Wrap {
+    color: white;
+    width: 800px;
+    margin: 20px;
+}
+
+.wct-fdc_desc {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.wct-fdc {
+    width: 600px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.swigly-line {
+    width: 40%;
+    margin-left: 70px;
+}
+
+.illus {
+    width: 65%;
+    padding-left: px;
+    animation: wobble 4s ;
+}
+
+.gs-btn {
+    background-image:-webkit-linear-gradient(rgba(96, 191, 255, 0.196), rgba(111, 178, 255, 0.388));
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 8px;
+    animation: wobble 2s;
+}
+
+/* What We Provide Wrapper */
+.WWP-wrap {
+    background-color: #ffffff32;
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+
+}
+
+.WWP-value-wrapper{
+    color: white;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wwp {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.wwp-desc {
+    font-weight: 300;
+    font-size: 18px;
+    opacity: 50%;
+}
+/* Keyframes */
+
+@keyframes wobble {
+    0% { transform: translateX(0%); } 
+    15% { transform: translateX(-25%) rotate(-5deg); } 
+    30% { transform: translateX(20%) rotate(3deg); } 
+    45% { transform: translateX(-15%) rotate(-3deg); } 
+    60% { transform: translateX(10%) rotate(2deg); }
+    75% { transform: translateX(-5%) rotate(-1deg); }
+    100% { transform: translateX(0%); } 
+ } 
+
