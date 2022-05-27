@@ -111,7 +111,7 @@
 }
 
 .donate-btn2 {
-    background-image: linear-gradient(rgb(157, 45, 255), rgb(1, 38, 160));
+    background-image: linear-gradient(rgb(237, 157, 70), rgb(241, 152, 28));
     border: none;
     color: white;
     outline: none;
@@ -119,11 +119,12 @@
     border-radius: 10px;
     font-size: 15px;
     transition: 300ms ease;
+    text-shadow: white;
 
 }
 
 .donate-btn2:hover {
-    background-image: linear-gradient(rgb(145, 23, 252), rgb(68, 105, 227));
+    background-image: linear-gradient(rgb(237, 157, 70), rgb(192, 112, 0));
     border: none;
     color: white;
     outline: none;
