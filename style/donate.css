@@ -35,13 +35,14 @@
 }
 
 .donate-input-wrap {
-    
+    margin-top: 30px;
     width: 400px;
     height: 100%;
     display: block;
 
 }
 .donate-confirm-wrap {
+    margin-top: 30px;
     width: 400px;
     height: 100%;
 
@@ -110,7 +111,7 @@
 }
 
 .donate-btn2 {
-    background-color: rgb(84, 172, 255);
+    background-image: linear-gradient(rgb(157, 45, 255), rgb(1, 38, 160));
     border: none;
     color: white;
     outline: none;
@@ -122,7 +123,7 @@
 }
 
 .donate-btn2:hover {
-    background-color: rgb(47, 154, 255);
+    background-image: linear-gradient(rgb(145, 23, 252), rgb(68, 105, 227));
     border: none;
     color: white;
     outline: none;
@@ -134,7 +135,7 @@
 }
 
 .donate-btn3 {
-    background-color: rgb(118, 90, 255);
+    background-image: linear-gradient(rgb(45, 73, 255), rgb(55, 13, 204));
     border: none;
     color: white;
     outline: none;
@@ -145,7 +146,7 @@
     
 }
 .donate-btn3:hover {
-    background-color: rgb(83, 48, 255);
+    background-image: linear-gradient(rgb(45, 73, 255), rgb(121, 84, 255));
     border: none;
     color: white;
     outline: none;
