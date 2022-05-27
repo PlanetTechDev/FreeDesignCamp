@@ -45,6 +45,7 @@ a {
     background-color: white;
     margin-left: 20px;
     display: block;
+    z-index: 3;
 
 
 }
