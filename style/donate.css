@@ -85,7 +85,12 @@
  padding: 10px 40px;
  color: white;
  font-size: 15px;
- border-radius: 10px
+ border-radius: 10px;
+ transition: 300ms ease;
+}
+
+.donate-btn:hover {
+    background-color: #0089FF;
 }
 
 .more-dnte_desc {
@@ -112,11 +117,35 @@
     padding: 20px 100px;
     border-radius: 10px;
     font-size: 15px;
+    transition: 300ms ease;
+
+}
+
+.donate-btn2:hover {
+    background-color: rgb(47, 154, 255);
+    border: none;
+    color: white;
+    outline: none;
+    padding: 20px 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
 
 }
 
 .donate-btn3 {
     background-color: rgb(118, 90, 255);
+    border: none;
+    color: white;
+    outline: none;
+    padding: 20px 94px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 300ms ease;
+    
+}
+.donate-btn3:hover {
+    background-color: rgb(83, 48, 255);
     border: none;
     color: white;
     outline: none;
