@@ -31,7 +31,7 @@
     height: 500px;
     justify-content: space-evenly;
     border-radius: 8px;
-    box-shadow: #0000003c 2px 2px 2px 2px;
+    box-shadow: #0000001e 2px 2px 10px 2px;
 }
 
 .donate-input-wrap {
@@ -53,18 +53,21 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    border: 2px solid black;
     
 }
 .icon {
     color: #000000;
     margin-top: 10px;
     margin-left: 10px;
+    
 }
 .input-donate {
     text-align: center;
-    padding: 12px 10px;
-    border: none;
+    padding: 12px 6px;
     outline: none;
+    border: none;
+    
 }
 
 .break {
@@ -120,5 +123,15 @@
     padding: 20px 94px;
     border-radius: 10px;
     font-size: 15px;
+    
+}
+
+.input-icons2 {
+    width: 80%;
+    height: 2px;
+    border-radius: 50px;
+    border: #0089FF 2px solid;
+    margin-left: auto;
+    margin-right: auto;
     
 }
