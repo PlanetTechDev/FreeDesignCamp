@@ -1,6 +1,16 @@
+function openDonate() {
+    // it opens the donate panel.
+    var openDonate = document.getElementById('mainbar');
 
-function donatediv() {
-    document.getElementsById('mainbar').style.display="none"
-    document.getElementsById('donaterbar').style.display="block"
+    var displaySetting = opendonate.style.display;
 }
 
+// to toggle on the panel or not.
+
+if (displaySetting == 'block') {
+    //mainbar is still visible, gonna hide it with this.
+    opendonate.style.display = 'none';
+    // change button text
+    
+    
+}

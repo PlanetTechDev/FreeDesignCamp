@@ -1,0 +1,20 @@
+.dnte {
+    color: #0089FF;
+}
+
+.donate-wrapper {
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.honor-system {
+    color: #4f3bff;
+    font-weight: 600;
+    font-size: 45px;
+}

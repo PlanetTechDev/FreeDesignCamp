@@ -154,9 +154,14 @@ li {
     width: 300px;
     height: 450px;
     border-radius:8px;
+    transition: 500ms ease-in-out;
     
 
 }
+
+.sqr-box:hover {
+    
+} 
 
 .sqr-box-2 {
     background-color: #ffffff29;

@@ -4,7 +4,7 @@ body {
 
 .sidebar-nav {
     width: 250px;
-    height: 730px;
+    height: 100%;
     background-image: linear-gradient(#E7F8FF, #EBFFFF);
     border-radius: 0px 5px 0px 5px;
 }
@@ -41,9 +41,10 @@ a {
 
 .main-bar {
     width: 100%;
-    height: 730px;
+    height: 100%;
     background-color: white;
     margin-left: 20px;
+    display: block;
 
 
 }
@@ -88,4 +89,27 @@ a {
 
 button {
     background-color: none;
+}
+
+.clicked {
+    color: #0089FF;
+}
+
+.text-wrappper-32 {
+    margin-left: 25px;
+    color: #3a82ff;
+    font-size: 24px;
+
+}
+
+.wctfdc {
+    font-weight: 500;
+}
+
+.line {
+
+}
+
+.expa {
+    color: black;
 }
