@@ -1,0 +1,65 @@
+.empty-svg {
+    width: 40%;
+    animation: wobble 5s infinite;
+}
+
+.ur-crse_container {
+    margin-top: 15%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.no-crse {
+    font-size: 20px;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+.find-a-course {
+    color: white;
+    background-image: linear-gradient(#A8C0FF, #B5B8FF);
+    padding: 25px 150px;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: 300ms ease-in-out;
+}
+
+.find-a-course:hover {
+    background-image: linear-gradient(#84a7ff, #9094ff);
+}
+
+@keyframes wobble {
+    0%, 100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        -webkit-transform: translateX(-32px) rotate(-10deg);
+        transform: translateX(-32px) rotate(-10deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(calc(32px / 2)) rotate(10deg);
+        transform: translateX(calc(32px / 2)) rotate(10deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(calc(-32px / 2)) rotate(calc(-10deg / 1.8));
+        transform: translateX(calc(-32px / 2)) rotate(calc(-10deg / 1.8));
+    }
+
+    60% {
+        -webkit-transform: translateX(calc(32px / 3.3)) rotate(calc(10deg / 3));
+        transform: translateX(calc(32px / 3.3)) rotate(calc(10deg / 3));
+    }
+
+    75% {
+        -webkit-transform: translateX(calc(-32px / 5.5)) rotate(calc(-10deg / 5));
+        transform: translateX(calc(-32px / 5.5)) rotate(calc(-10deg / 5));
+    }
+}

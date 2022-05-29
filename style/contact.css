@@ -90,3 +90,8 @@ label {
 .add-course-text:hover {
     text-decoration: underline;
 }
+
+::placeholder {
+    color: white;
+    opacity: 50%;
+}

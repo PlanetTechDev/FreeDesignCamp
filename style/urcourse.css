@@ -40,7 +40,7 @@ a {
 }
 
 .main-bar {
-    width: 100%;
+    width: 81%;
     height: 100%;
     background-color: white;
     margin-left: 20px;
@@ -114,3 +114,4 @@ button {
 .expa {
     color: black;
 }
+
