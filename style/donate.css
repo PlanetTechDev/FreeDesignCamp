@@ -91,7 +91,8 @@
 }
 
 .donate-btn:hover {
-    background-color: #0089FF;
+    background-color: #52aeff;
+    cursor: pointer;
 }
 
 .more-dnte_desc {

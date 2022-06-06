@@ -1,5 +1,5 @@
 .help-forums-navigator {
-    background-color: rgba(62, 110, 255, 0.915);
+    background-image: linear-gradient(rgba(49, 92, 185, 0.712),rgba(121, 146, 255, 0.778));
     width: 100%;
     height: 80px;
     display: flex;
@@ -97,4 +97,34 @@ form {
 .namencomment {
     display: flex;
     justify-content: space-between;
+}
+
+.a23 {
+    
+}
+
+.forumsearch {
+    border: none;
+    padding: 9px 19px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.search-bar {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: rgb(1, 77, 255);
+    left: 50%;
+    border-radius: none;
+    margin-left: -50px;
+    
+}
+
+.postq {
+    margin-left: 80px;
+    border: none;
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+
 }

@@ -50,6 +50,10 @@ li {
     padding: 11px 35px;
     border-radius: 25px;
     font-size: 14px;
+    transition: 300ms ease;
+}
+.Signup-Btn:hover {
+    background-color: #3AC8FF;
 }
 
 .Login-Btn {
@@ -58,6 +62,16 @@ li {
     color: white;
     padding: 11px 35px;
     border: 2px solid #15bdff;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: 300ms ease;
+}
+.Login-Btn:hover {
+    background-color: #5ad0ff;
+    border: none;
+    color: white;
+    padding: 11px 35px;
+    border: 2px solid #5ad0ff;
     border-radius: 25px;
     font-size: 14px;
 }
@@ -102,6 +116,14 @@ li {
 
 .gs-btn {
     background-image:-webkit-linear-gradient(rgba(96, 191, 255, 0.196), rgba(111, 178, 255, 0.388));
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 8px;
+    animation: wobble 3s;
+    transition: 400ms ease;
+}
+.gs-btn:hover {
+    background-image:-webkit-linear-gradient(rgba(47, 172, 255, 0.196), rgba(99, 172, 255, 0.388));
     padding: 15px 30px;
     text-align: center;
     border-radius: 8px;
@@ -217,6 +239,19 @@ li {
 }
 .Convinced-btn {
     background-image: linear-gradient(rgba(130, 201, 255, 0.203),rgba(130, 183, 223, 0.338));
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 250px;
+    padding: 21px 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 300ms ease;
+    
+}
+.Convinced-btn:hover {
+    background-image: linear-gradient(rgba(78, 178, 255, 0.203),rgba(128, 200, 255, 0.338));
     border: none;
     color: white;
     border-radius: 4px;
