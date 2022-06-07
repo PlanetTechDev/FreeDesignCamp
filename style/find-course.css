@@ -1,3 +1,4 @@
+
 .find-nav-wrap {
     background-image: linear-gradient(rgba(117, 195, 255, 0.395), rgba(128, 200, 255, 0.559));
     width: 100%;
@@ -6,10 +7,25 @@
 }
 
 .find-course-search {
-    width: 200px;
-    height: 40px;
-    border-radius: 8px;
+    width: 100%;
+    height: 200px;
     border: none;
-    margin-top:25px;
     outline: none;
+}
+
+.Searchcourse {
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 150px;
+    background-color: rgb(222, 222, 222);
+}
+
+.search-wrapper {
+    width: 100%;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
 }

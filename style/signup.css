@@ -44,6 +44,8 @@ form {
     height: 50px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.116);
     border-radius: 4px;
+    margin: 2px;
+    padding-left: 10px;
 }
 
 .email {

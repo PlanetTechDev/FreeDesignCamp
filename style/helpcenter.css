@@ -108,6 +108,7 @@ form {
     padding: 9px 19px;
     border-radius: 25px;
     outline: none;
+
 }
 
 .search-bar {
@@ -116,7 +117,7 @@ form {
     color: rgb(1, 77, 255);
     left: 50%;
     border-radius: none;
-    margin-left: -50px;
+    margin-left: -40px;
     
 }
 

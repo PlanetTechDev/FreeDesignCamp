@@ -1,4 +1,6 @@
-
+body {
+    height: 1500px;
+}
 
 .main-wrapper {
     width: 600px;
@@ -7,8 +9,19 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.223); 
+    animation: slide-up 1s;
 }
 
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+      }
+      to {
+        transform: translateY(0%);
+      }
+}
 .cu {
     color: white;
     text-align: center;
@@ -72,9 +85,10 @@ label {
     outline: none;
     color: white;
     width: 400px;
-    height: 50px;
+    height: 60px;
     border-radius: 5px;
     transition: 300ms ease-in-out;
+    font-size: 18px;
 }
 
 .submit-btn:hover {
