@@ -359,7 +359,7 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
+    body, html {
         background-image: linear-gradient(#d0ddff, #272A7D);
         font-family: League Spartan, sans-serif;
         padding: 0;
@@ -449,7 +449,7 @@ li {
 .WWP-wrap {
     background-color: #ffffff32;
     width: 80%;
-    height: 1440px;
+    height: 1350px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -556,7 +556,7 @@ li {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
+    margin-top: 220px;
 }
 .Convinced-btn {
     background-image: linear-gradient(rgba(130, 201, 255, 0.203),rgba(130, 183, 223, 0.338));
@@ -573,7 +573,7 @@ li {
 }
 .Convinced-btn:hover {
     background-image: linear-gradient(rgba(78, 178, 255, 0.203),rgba(128, 200, 255, 0.338));
-    padding: 15px 21px;
+    padding: 15px 50px;
     
 }
 }
