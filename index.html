@@ -10,7 +10,38 @@
     <title>FreeDesignCamp</title>
 </head>
 <body>
-    
+    <div class="popup-modal_warning_mobile-bg" id="modal2">
+        <div class="popup-modal_warning_mobile" id="modalhide">
+            <br>
+            <div class="popup-wrapper">
+                <br>
+                <i class="uil uil-mobile-android"></i>
+                <h1 class="Info">IMPORTANT</h1>
+                <div class="wrap2">
+                    <p class="pop-p">We strongly advise you to use FreeDesignCamp on a desktop device in order to get the best
+                        experience when using FreeDesignCamp. 
+                    </p>
+                    <br>
+                    <p class="pop-p">FreeDesignCamp isn't made for mobile devices yet, We are currently working on FreeDesignCamp App to bring
+                        mobile compatibility.
+                    </p>
+                </div>
+                <button class="UaC" onclick="close()" id="UaC">Understood and Return</button>
+                <script>
+                    var x = document.getElementById("modal2");
+                    var btn = document.getElementById("UaC")
+                    btn.onclick = function () {
+                        if (x.style.display !== "none") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "block"
+                        }
+                    }
+
+                </script>
+            </div>
+        </div>
+    </div>
     <nav class="nav-bar">
        <div><img src="/assets/fdclogo.svg" alt="Free Design Camp Logo" class="fdclogo-main"></div>
            <ul>
@@ -50,7 +81,7 @@
                     
                     }
                </script>
-            <li class="li-nav_mob">
+                <li class="li-nav_mob">
                 <button class="exit-nav" onclick="exitmenu()"><i class="uil uil-multiply"></i></button>
                 <script>
                     function exitmenu() {
@@ -114,6 +145,17 @@
             designing field or as a web developer/ game
             developer!</p>
         <a href="/signup.html" class="gs-btn">Get Started<i class="uil uil-arrow-right"></i></a>
+        <button class="gs-btn2" onclick="openmodal()">Get Started<i class="uil uil-arrow-right"></i></button>
+        <script>
+            function openmodal() {
+             var x = document.getElementById("modal2");
+             if (x.style.display === "none") {
+             x.style.display = "none";
+             } else {
+             x.style.display="block";
+             }
+            }
+        </script>
     </div>
     <div class="ImgIllustratiion-Wrap">
         <img src="/assets/icons/workillu.svg" alt="illustration" class="illus">
@@ -250,6 +292,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>
