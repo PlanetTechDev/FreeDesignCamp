@@ -26,17 +26,21 @@
                         mobile compatibility.
                     </p>
                 </div>
-                <button class="UaC" onclick="close()" id="UaC">Understood and Return</button>
+                <br>
+                <a href="/signup.html" class="UaC" onclick="close()" id="UaC">Understood and Contiunue</a>
                 <script>
                     var x = document.getElementById("modal2");
                     var btn = document.getElementById("UaC")
+                    
                     btn.onclick = function () {
                         if (x.style.display !== "none") {
                             x.style.display = "none";
+                            
                         } else {
                             x.style.display = "block"
                         }
                     }
+
 
                 </script>
             </div>
