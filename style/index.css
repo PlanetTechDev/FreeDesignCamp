@@ -416,6 +416,22 @@ li {
     width: 100%;
     background-color: #6065ff9f;
 }
+
+.menu-logo {
+    width: 10vw;
+    position: flex;
+    display: none;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+    
+}
 @media only screen and (max-width: 700px) {
     body {
         background-image: linear-gradient(#d0ddff, #272A7D);
@@ -726,6 +742,8 @@ li {
     z-index: 1;
     overflow-y: auto;
     display: none;
+    transition: 300ms ease;
+    animation: slide-left 1.2s;
 }
 
 .li-nav_mob {
@@ -743,15 +761,27 @@ li {
     transition: 300ms ease;
 }
 .mobile-a:hover {
-    background-color: #3AC8FF;
 }
 
 .exit-nav {
     background-color: #22567c00;
     border: none;
-    margin-left: 60vw;
+    margin-left: 54vw;
+    margin-top: 2vw;
     color: white;
-    font-size: 10vw;
+    font-size: 9vw;
+    transition: 300ms ease;
+}
+
+.menu-logo {
+    width: 10vw;
+    position: flex;
+    display: block;
+}
+
+.exit-nav:hover {
+    color: #39f5ff;
+    cursor: pointer;
 }
 
 .hover_nav {
