@@ -35,6 +35,19 @@
                     } else {
                     x.style.display="block";
                     }
+                    var y = document.getElementById("randomquote")
+                    var quotes = 
+                    ['Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.', 
+                    'You learn more from failure than from success. Don’t let it stop you. Failure builds character.', 
+                    'Its One Day, Or Day One. You Choose the ladder.', 
+                    'Opportunity is missed by most people because it is dressed in overalls and looks like work.', 
+                    'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you havent found it yet, keep looking. Dont settle. As with all matters of the heart, youll know when you find it', 
+                    'It’s not about better time management. It’s about better life management', 
+                    'We don’t just sit around and wait for other people. We just make, and we do'];
+                    document.getElementsById("random-quote").innerHTML = quotes[Math.floor(Math.random() * arr.length)];
+                    y.innerHTML = quotes[Math.floor(Math.random() * arr.length)];
+
+                    
                     }
                </script>
             <li class="li-nav_mob">
@@ -75,9 +88,19 @@
                 <br>
                 <li class="hover_nav">
                 <a href="/login.html" class="mobile-a">Login</a>
+                <br>
             </li>
                 <br>
             </li>
+            <p class="mobile-menu_msg" id="randomquote">Develop success from failures. Discouragement and failure are two of the
+             surest stepping stones to success.</p>
+             <script>
+                 var y = document.getElementById("randomquote")
+                 var d = new Date().getDay();
+                var quotes = ['title 1', 'title 2', 'title 3', 'title 4', 'title 5', 'title 6', 'title 7'];
+
+                document.getElementsByClassName("mobile-menu_msg").innerHTML = titles[d-1];
+             </script>
            </ul>
     </nav>
 <div class="mainbody">
