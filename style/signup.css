@@ -258,7 +258,7 @@ form {
 .email-user {
     font-weight: 300;
     color: #FFFFFF;
-    margin-right: 165px;
+    margin-right: 30vw;
 }
 
 .su {
@@ -282,5 +282,7 @@ form {
     font-weight: 300;
     font-size: 3vw;
 }
-    
+.p-wrapper {
+    width: 50vw;
+}
 }
