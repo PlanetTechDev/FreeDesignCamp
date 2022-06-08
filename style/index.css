@@ -358,7 +358,7 @@ li {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     body, html {
         background-image: linear-gradient(#d0ddff, #272A7D);
         font-family: League Spartan, sans-serif;
@@ -413,7 +413,6 @@ li {
     .MainText-Wrap {
         color: white;
         text-align: center;
-        width: 400px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -449,7 +448,7 @@ li {
 .WWP-wrap {
     background-color: #ffffff32;
     width: 80%;
-    height: 1350px;
+    height: 1450px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -478,7 +477,7 @@ li {
 }
 
 .reason-wrapper {
-    margin-top: 200px;
+    margin-top: 280px;
     display: flex;
     width: 90%;
     height: 500px;
@@ -542,6 +541,8 @@ li {
 .video-resc-desc {
     color: white;
     text-align: center;
+    font-weight: 300;
+    opacity: 70%;
 }
 
 .docs-icon {
@@ -556,7 +557,7 @@ li {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 220px;
+    margin-top: 305px;
 }
 .Convinced-btn {
     background-image: linear-gradient(rgba(130, 201, 255, 0.203),rgba(130, 183, 223, 0.338));
