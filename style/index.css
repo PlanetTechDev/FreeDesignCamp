@@ -744,7 +744,8 @@ li {
     display: none;
     transition: 300ms ease;
     animation: slide-left 1.2s;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 .li-nav_mob {
