@@ -63,3 +63,141 @@
         transform: translateX(calc(-32px / 5.5)) rotate(calc(-10deg / 5));
     }
 }
+
+@media only screen and (max-width: 700px) {
+    body {
+
+        /* background-image: linear-gradient(#d0ddff, #272A7D); */
+        font-family: League Spartan, sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+        
+    }
+
+    
+    .nav-bar {
+        color: white;
+        display: flex;
+        justify-content: right;
+        margin: 15px;
+        text-decoration: none;
+    }
+    
+    .nav-bar {
+        color: white;
+        justify-content: space-between;
+        margin: 15px;
+        text-decoration: none;
+    }
+
+    .li-nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        font-size: 3em;
+        color: white;
+    }
+
+    .menu-nav {
+        display: flex;
+        border: none;
+        background-color: rgba(255, 0, 0, 0);
+        z-index: ;
+    }
+
+    .mainbody {
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .MainText-Wrap {
+        color: white;
+        text-align: center; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+.wct-fdc_desc {
+    font-size: 4.4vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.wct-fdc {
+    width: 100%;
+    font-weight: 600;
+    font-size: 10vw;
+}
+
+.sidebar-nav {
+    display: none;
+}
+
+.sidebar-nav_mobile {
+    width: 20vw;
+    height: 100%;
+    background-image: linear-gradient(#E7F8FF, #EBFFFF);
+    border-radius: 0px 5px 0px 5px;
+    display: block;
+}
+
+.uil {
+    font-size: 4vw;
+}
+.rnd {
+    line-height: 40px;
+} 
+
+.blck2 {
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    font-family: League Spartan;
+    font-size: 21px;
+    font-weight: 400;
+
+}
+.side-main-text {
+    font-size: 6vw;
+}
+
+.empty-svg {
+    width: 40%;
+    animation: wobble 5s infinite;
+}
+
+.ur-crse_container {
+    margin-top: 15%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.no-crse {
+    font-size: 20px;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+.find-a-course {
+    color: white;
+    background-image: linear-gradient(#A8C0FF, #B5B8FF);
+    padding: 3vw 10vw;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: 300ms ease;
+}
+
+.find-a-course:hover {
+    background-image: linear-gradient(#84a7ff, #9094ff);
+}
+}
