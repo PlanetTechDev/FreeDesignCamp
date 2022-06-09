@@ -12,19 +12,97 @@
 </head>
 <body>
     <nav class="nav-bar">
-       <div><img src="/assets/fdclogo.svg" alt="Free Design Camp Logo" class="fdclogo-main"></div>
-           <ul>
-               <li>
-                   <a href="/index.html">Home</a>
-                   <a href="/about.html">About</a>
-                   <a href="/contact.html">Contact</a>
-                   <a href="/home.html">Menu</a>
-                   <a href="/signup.html" class="Signup-Btn">Signup</a>
-                   <a href="/login.html" class="Login-Btn">Login</a>
-               </li>
-           </ul>
-
-    </nav>
+        <div><img src="/assets/fdclogo.svg" alt="Free Design Camp Logo" class="fdclogo-main"></div>
+            <ul>
+                <li class="li-nav">
+                    <a href="/index.html">Home</a>
+                    <a href="/about.html">About</a>
+                    <a href="/contact.html">Contact</a>
+                    <a href="/home.html">Menu</a>
+                    <a href="/signup.html" class="Signup-Btn">Signup</a>
+                    <a href="/login.html" class="Login-Btn">Login</a>
+                </li>
+                <li class="mobile-nav">
+                    <button class="menu-nav" id="open-menu" onclick="openmenu()"><i class="uil uil-bars menu"></i></button>
+                </li>
+            </ul>
+            <ul class="mobile-menuu" id="mobile-menu_r">
+                <script>
+                    function openmenu() {
+                     var x = document.getElementById("mobile-menu_r");
+                     if (x.style.display === "block") {
+                     x.style.display = "none";
+                     } else {
+                     x.style.display="block";
+                     }
+                     var y = document.getElementById("randomquote")
+                     var quotes = 
+                     ['Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.', 
+                     'You learn more from failure than from success. Don’t let it stop you. Failure builds character.', 
+                     'Its One Day, Or Day One. You Choose the ladder.', 
+                     'Opportunity is missed by most people because it is dressed in overalls and looks like work.', 
+                     'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you havent found it yet, keep looking. Dont settle. As with all matters of the heart, youll know when you find it', 
+                     'It’s not about better time management. It’s about better life management', 
+                     'We don’t just sit around and wait for other people. We just make, and we do'];
+                     document.getElementsById("random-quote").innerHTML = quotes[Math.floor(Math.random() * arr.length)];
+                     y.innerHTML = quotes[Math.floor(Math.random() * arr.length)];
+ 
+                     
+                     }
+                </script>
+             <li class="li-nav_mob">
+                 <button class="exit-nav" onclick="exitmenu()"><i class="uil uil-multiply"></i></button>
+                 <script>
+                     function exitmenu() {
+                     var x = document.getElementById("mobile-menu_r");
+                     if (x.style.display === "none") {
+                     x.style.display = "none";
+                     } else {
+                     x.style.display="none";
+                     }
+                     }
+                 </script>
+                 <br>
+                 <div class="nav-logo_container">
+                 <img src="/assets/icons/FDC LOGO – PNG.svg" alt="" class="menu-logo">
+                 </div>
+                 <li class="hover_nav">
+                 <a href="/index.html" class="mobile-a">Home</a>
+                 </li>
+                 <br>
+                 <li class="hover_nav">
+                 <a href="/about.html" class="mobile-a">About</a>
+                 </li>
+                 <br>
+                 <li class="hover_nav">
+                 <a href="/contact.html" class="mobile-a">Contact</a>
+                 </li>
+                 <br>
+                 <li class="hover_nav">
+                 <a href="/home.html" class="mobile-a">Menu</a>
+                 </li>
+                 <br>
+                 <li class="hover_nav">
+                 <a href="/signup.html" class="mobile-a">Signup</a>
+                 </li>
+                 <br>
+                 <li class="hover_nav">
+                 <a href="/login.html" class="mobile-a">Login</a>
+                 <br>
+             </li>
+                 <br>
+             </li>
+             <p class="mobile-menu_msg" id="randomquote">Develop success from failures. Discouragement and failure are two of the
+              surest stepping stones to success.</p>
+              <script>
+                  var y = document.getElementById("randomquote")
+                  var d = new Date().getDay();
+                 var quotes = ['title 1', 'title 2', 'title 3', 'title 4', 'title 5', 'title 6', 'title 7'];
+ 
+                 document.getElementsByClassName("mobile-menu_msg").innerHTML = titles[d-1];
+              </script>
+            </ul>
+     </nav>
     <div class="login-wrapper">
         <img src="/assets/fdclogo.svg" alt="" class="fdc-signnup-wt">
         <div class="signup-st">
