@@ -13,19 +13,50 @@
     outline: none;
 }
 
-.Searchcourse {
-    width: 250px;
-    height: 45px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 150px;
-    background-color: rgb(222, 222, 222);
-}
 
-.search-wrapper {
-    width: 100%;
-    height: 140px;
+
+.course-one {
+    width: 45vw;
+    height: 120px;
+    display: block;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
+    border-radius: 8px;
+}
+
+.find-course-search {
+    width: 1200px;
+    height: 150px;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.course1 {
+    width: 50vw;
+    height: 15vw;
+    transition: 300ms ease;
+}
+
+.course1:hover {
+    width: 51vw;
+    transition: 300ms ease;
+}
+
+.recco {
+    background-image: linear-gradient(#2294ff,#6DC7F2);
+    text-align:center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+}
+.recco1 {
+    background-image: linear-gradient(#226cff,#57caff);
+    text-align:center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2vw;
 }
